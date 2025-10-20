@@ -1,12 +1,15 @@
 package com.CarOOP;
 
 public class Car extends Vehicle {
+
     int modelYear;
     String carName;
     // constructor with Two parameter
     public Car(String carName, int modelYear){
+        super();
         this.modelYear = modelYear;
         this.carName = carName;
+        System.out.println("Car is created...");
     }
     //constructor with one parameter
     public Car(String carName){

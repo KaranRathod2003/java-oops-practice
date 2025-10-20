@@ -10,7 +10,11 @@ public class Main {
     public static void main(String[] args) {
         Car myCar1 = new Car("Mustang", 2024);
         Car myCar2 = new Car("Ferrari");
+        Enum.Level myVar = Enum.Level.HIGH;
+        System.out.println(myVar);
         Bike myBike = new Bike();
+        Jeep myJeep = new Jeep();
+        Jeep.Thar  myThar = myJeep.new Thar();
         System.out.println("Car 1 : " + myCar1.getChesisNumber());// encapsulation get and set
         myCar2.setChesisNumber(9783);
         System.out.println("Car 2 : " + myCar2.getChesisNumber());

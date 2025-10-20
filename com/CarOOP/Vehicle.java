@@ -1,6 +1,9 @@
 package com.CarOOP;
 
 public class Vehicle {
+    Vehicle(){
+        System.out.println("Vehicle is created...");
+    }
     protected String brand = "Mahindra";
     private int seats = 4;
     public int getSeats(){
